@@ -1,2 +1,2 @@
 .env
-rabbitmq/.data/*
+./rabbitmq/.data/
