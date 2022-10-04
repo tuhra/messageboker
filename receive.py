@@ -3,7 +3,7 @@ import pika, sys, os
 
 def main():
 
-    credentials = pika.PlainCredentials('thura', 'password')
+    credentials = pika.PlainCredentials('guest', 'guest')
     parameters = pika.ConnectionParameters('localhost', 5672, '/', credentials)
 
     connection = pika.BlockingConnection(parameters)
